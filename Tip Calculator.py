@@ -26,6 +26,7 @@
 # print(f'Total Amoutn:${Total_paid}')
 # print('----------------------------')
 
+# Using Defining Functions:
 def calculatefoodtotal(food, tip_percent):
     tip = food * (tip_percent / 100)
     total = tip + food
